@@ -1,0 +1,41 @@
+body {
+  background-color: #7fad79f6;
+}
+form {
+  width: 75%;
+  background-color: aquamarine;
+  border-radius: 25px;
+}
+form legend {
+  color: #eb18c8fb;
+}
+form #li1 {
+  background-color: #FF5733;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #000000;
+}
+form #li2 {
+  background-color: #33FF57;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #000000;
+}
+form #li3 {
+  background-color: #5733FF;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #000000;
+}
+form #li4 {
+  background-color: #FFFF33;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #000000;
+}
+form #li5 {
+  background-color: #d345a3;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #000000;
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: #7fad79f6;}
+
+form{
+    width: 75%;
+    background-color: aquamarine;
+    border-radius: 25px;
+    legend{
+        color:  #eb18c8fb;
+      }
+    
+    @colores: #FF5733, #33FF57, #5733FF, #FFFF33, #d345a3;
+
+
+    .for (@i, @length) when (@i <= @length) {
+    @color: extract(@colores, @i);
+
+    #li@{i} {
+        background-color: @color;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: #000000;
+
+    }
+    .for(@i + 1, @length);
+    }
+    .for(1, length(@colores));
+
+  }
+  
