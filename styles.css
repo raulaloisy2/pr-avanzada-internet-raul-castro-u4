@@ -39,3 +39,7 @@ form #li5 {
   border-style: dashed;
   border-color: #000000;
 }
+form #contra {
+  display: flex;
+  justify-content: center;
+}
